@@ -1,0 +1,14 @@
+name: db-seeder
+version: 1.0.0
+description: Database seeding plugin for dev-domain. Supports MongoDB and PostgreSQL with auto-detection when a single database service is enabled.
+author: Developer Domain Community
+logo: https://gitlab.com/topherfrey/dev-tools/developer-domain-plugins/-/blob/main/db-seeder/assets/logo.png
+entrypoint: plugin.sh
+category: database
+
+requires:
+  - docker
+
+on_failure: warn
+
+hooks: []
